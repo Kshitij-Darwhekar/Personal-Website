@@ -1,14 +1,11 @@
 {
-  "homepage": "http://kshitijdarwhekar.me",
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start": "next start",
-     "predeploy": "next build",
-    "deploy": "gh-pages -d .next",
     "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
