@@ -1,11 +1,11 @@
-"use client";
 
+"use client"; 
+import { useState } from 'react';
 import React from 'react';
 import Image from 'next/image';
 import Typewriter from 'typewriter-effect';
 import { useForm } from '@formspree/react';
 import { Analytics } from '@vercel/analytics/react';
-import { useState } from 'react';
 
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin,AiFillYoutube,AiFillGithub,AiFillMediumSquare,AiFillMail} from 'react-icons/ai';
